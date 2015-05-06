@@ -6,4 +6,6 @@
 
 ### Install
 -  Clone the project `git clone https://github.com/NgaNguyenDuy/chatapp.git`
--  Change to directory `chatapp` and install all dependencies by type: `npm install`
+-  Change to directory `chatapp` and install all dependencies (include main dependancies and dev dependencies) by type: `npm install`
+-  Start redis server
+-  Start chat server with command: `DEBUG=chatapp:init node server.js` and go to `http://localhost:7777` in your browser and enjoy.
