@@ -1,0 +1,27 @@
+extend layout
+
+block content
+    .wrap
+        sidebar
+            include users_list
+            div.user-info
+                img.avt(src="/img/df_avt.png", alt="avt default")
+                div.user
+                    span#usname.username 
+        
+        .content(role='main')
+            .chat
+            
+            span#timemess
+            
+            .line-chat
+            
+            .chat-input.input-group
+                input#input.text.form-control(type="text", name="", placeholder="Enter your message!", value="")
+                span.input-group-btn
+                    button.btn.btn-default(type="button", onclick="return alert('hello world')")
+                        i.glyphicon.glyphicon-user
+                      
+    script(src="/socket.io/socket.io.js")                                                  
+    script(src="/js/main.js")
+    

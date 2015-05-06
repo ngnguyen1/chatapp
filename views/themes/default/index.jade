@@ -1,0 +1,21 @@
+extends ./layout.jade
+
+
+block content
+    div.container
+        div.jumbotron(style="height: 450px; background-color: #fff;")
+            h1.text-center Enter your nickname
+            div.row(style="margin-top: 50px;")
+                div.col-lg-offset-4.col-lg-4
+                    div.input-group
+                        input.form-control(type="text", id="usname", onkeypress="enterKey(event)", placeholder="Your nick name ...", name="usname", style="background-color: #eee;")
+                        span.input-group-btn
+                            button.btn.btn-default(type="button", id="btnConnect")
+                                i.glyphicon.glyphicon-arrow-right
+                                
+    footer
+          p.text-center
+          | This demo is an 
+          a(href='https://github.com/nganguyenduy/chatapp', target="_blank") Open Source project 
+          | developed by 
+          a(href='http://twitter.com/nganguyenduy', target="_blank") NgaNguyenDuy.    

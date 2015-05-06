@@ -1,0 +1,9 @@
+{
+    "app": {
+        "port": 7777
+    },
+    "redisURL": "http://localhost:6379",
+    "session": {
+        "secret": "chatappsecret"
+    }
+}
