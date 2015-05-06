@@ -2,4 +2,4 @@
 
 ### Requirement
 - Nodejs(You can download at https://nodejs.org/ )
--  (Redis)[http://redis.io/]
+- [Redis](http://redis.io/)
