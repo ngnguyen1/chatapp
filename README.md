@@ -14,8 +14,11 @@
 ### Config
 You can change the port or redis connect URL in file config.json that located at config/config.json
 
-
+### Some screenshots
 ![Screenshot1](https://github.com/NgaNguyenDuy/chatapp/blob/master/screenshots/2015-05-06-151424_1366x768_scrot.png)
+
+![Screenshots2](https://github.com/NgaNguyenDuy/chatapp/blob/master/screenshots/2015-05-06-151544_1366x768_scrot.png)
+
 
 ### License 
 MIT
