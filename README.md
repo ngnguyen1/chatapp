@@ -13,3 +13,7 @@
 
 ### Config
 You can change the port or redis connect URL in file config.json that located at config/config.json
+
+
+### License 
+MIT
